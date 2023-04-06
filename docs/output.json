@@ -1,0 +1,660 @@
+{
+    "groups": [
+        {
+            "name": "tshock.account",
+            "children": [
+                {
+                    "description": "User can register account in game.",
+                    "value": "tshock.account.register"
+                },
+                {
+                    "description": "User can login in game.",
+                    "value": "tshock.account.login"
+                },
+                {
+                    "description": "User can logout in game.",
+                    "value": "tshock.account.logout"
+                },
+                {
+                    "description": "User can change password in game.",
+                    "value": "tshock.account.changepassword"
+                }
+            ]
+        },
+        {
+            "name": "tshock.admin",
+            "children": [
+                {
+                    "description": "User can set build protection status.",
+                    "value": "tshock.admin.antibuild"
+                },
+                {
+                    "description": "Prevents you from being kicked.",
+                    "value": "tshock.admin.nokick"
+                },
+                {
+                    "obsolete": "Ban immunity is no longer available.",
+                    "description": "Prevents you from being banned.",
+                    "value": "tshock.admin.noban"
+                },
+                {
+                    "description": "Specific log messages are sent to users with this permission.",
+                    "value": "tshock.admin.viewlogs"
+                },
+                {
+                    "description": "User can kick others.",
+                    "value": "tshock.admin.kick"
+                },
+                {
+                    "description": "User can ban others.",
+                    "value": "tshock.admin.ban"
+                },
+                {
+                    "description": "User can manage warps.",
+                    "value": "tshock.admin.warp"
+                },
+                {
+                    "description": "User can manage item bans.",
+                    "value": "tshock.admin.itemban"
+                },
+                {
+                    "description": "User can manage projectile bans.",
+                    "value": "tshock.admin.projectileban"
+                },
+                {
+                    "description": "User can manage tile bans.",
+                    "value": "tshock.admin.tileban"
+                },
+                {
+                    "description": "User can manage groups.",
+                    "value": "tshock.admin.group"
+                },
+                {
+                    "description": "User can manage regions.",
+                    "value": "tshock.admin.region"
+                },
+                {
+                    "description": "User can mute and unmute users.",
+                    "value": "tshock.admin.mute"
+                },
+                {
+                    "description": "User can see the id of players with /who.",
+                    "value": "tshock.admin.seeplayerids"
+                },
+                {
+                    "description": "User can save all the players SSI (server side character) state.",
+                    "value": "tshock.admin.savessi"
+                },
+                {
+                    "description": "User can upload their joined character data as SSC data.",
+                    "value": "tshock.ssc.upload"
+                },
+                {
+                    "description": "User can upload other players join data to the SSC database.",
+                    "value": "tshock.ssc.upload.others"
+                },
+                {
+                    "description": "User can elevate other users' groups temporarily.",
+                    "value": "tshock.admin.tempgroup"
+                },
+                {
+                    "description": "User can broadcast messages.",
+                    "value": "tshock.admin.broadcast"
+                },
+                {
+                    "description": "User can get other users' info.",
+                    "value": "tshock.admin.userinfo"
+                }
+            ]
+        },
+        {
+            "name": "tshock.buff",
+            "children": [
+                {
+                    "description": "User can buff self.",
+                    "value": "tshock.buff.self"
+                },
+                {
+                    "description": "User can buff other players.",
+                    "value": "tshock.buff.others"
+                }
+            ]
+        },
+        {
+            "name": "tshock.cfg",
+            "children": [
+                {
+                    "description": "User is notified when an update is available, user can turn off / restart the server.",
+                    "value": "tshock.cfg.maintenance"
+                },
+                {
+                    "description": "User can modify the whitelist.",
+                    "value": "tshock.cfg.whitelist"
+                },
+                {
+                    "description": "User can edit the server password.",
+                    "value": "tshock.cfg.password"
+                },
+                {
+                    "description": "User can reload the configurations file.",
+                    "value": "tshock.cfg.reload"
+                },
+                {
+                    "description": "User can create reference files of Terraria IDs and the permission matrix in the server folder.",
+                    "value": "tshock.cfg.createdumps"
+                }
+            ]
+        },
+        {
+            "name": "tshock.ignore",
+            "children": [
+                {
+                    "description": "Prevents you from being reverted by kill tile abuse detection.",
+                    "value": "tshock.ignore.removetile"
+                },
+                {
+                    "description": "Prevents you from being reverted by place tile abuse detection.",
+                    "value": "tshock.ignore.placetile"
+                },
+                {
+                    "description": "Prevents you from being disabled by liquid set abuse detection.",
+                    "value": "tshock.ignore.liquid"
+                },
+                {
+                    "description": "Prevents you from being disabled by projectile abuse detection.",
+                    "value": "tshock.ignore.projectile"
+                },
+                {
+                    "description": "Prevents you from being disabled by paint abuse detection.",
+                    "value": "tshock.ignore.paint"
+                },
+                {
+                    "description": "Prevents you from being disabled by stack hack detection.",
+                    "value": "tshock.ignore.itemstack"
+                },
+                {
+                    "description": "Prevents your actions from being ignored if damage is too high.",
+                    "value": "tshock.ignore.damage"
+                },
+                {
+                    "description": "Prevents your from being kicked by npc buff hack detection.",
+                    "value": "tshock.ignore.npcbuff"
+                },
+                {
+                    "description": "Bypass server side character checks.",
+                    "value": "tshock.ignore.ssc"
+                },
+                {
+                    "description": "Allow unrestricted SendTileSquare usage, for client side world editing.",
+                    "value": "tshock.ignore.sendtilesquare"
+                },
+                {
+                    "description": "Allow dropping banned items without the item being eaten.",
+                    "value": "tshock.ignore.dropbanneditem"
+                },
+                {
+                    "description": "Prevents you from being disabled by abnormal HP.",
+                    "value": "tshock.ignore.hp"
+                },
+                {
+                    "description": "Prevents you from being disabled by abnormal MP.",
+                    "value": "tshock.ignore.mp"
+                }
+            ]
+        },
+        {
+            "name": "tshock.item",
+            "children": [
+                {
+                    "description": "User can give items.",
+                    "value": "tshock.item.give"
+                },
+                {
+                    "description": "User can spawn items.",
+                    "value": "tshock.item.spawn"
+                },
+                {
+                    "description": "Allows you to use banned items.",
+                    "value": "tshock.item.usebanned"
+                }
+            ]
+        },
+        {
+            "name": "tshock.npc",
+            "children": [
+                {
+                    "description": "User can edit the max spawns.",
+                    "value": "tshock.npc.maxspawns"
+                },
+                {
+                    "description": "User can edit the spawnrate.",
+                    "value": "tshock.npc.spawnrate"
+                },
+                {
+                    "description": "User can start an invasion. Warning: high network use. Easy to abuse.",
+                    "value": "tshock.npc.invade"
+                },
+                {
+                    "description": "User can hurt town NPCs.",
+                    "value": "tshock.npc.hurttown"
+                },
+                {
+                    "description": "User can spawn bosses.",
+                    "value": "tshock.npc.spawnboss"
+                },
+                {
+                    "description": "User can spawn pets. Warning: high network use. Easy to abuse.",
+                    "value": "tshock.npc.spawnpets"
+                },
+                {
+                    "description": "User can rename NPCs.",
+                    "value": "tshock.npc.rename"
+                },
+                {
+                    "description": "User can spawn npcs.",
+                    "value": "tshock.npc.spawnmob"
+                },
+                {
+                    "description": "User can kill all enemy npcs.",
+                    "value": "tshock.npc.butcher"
+                },
+                {
+                    "description": "User can summon bosses using items.",
+                    "value": "tshock.npc.summonboss"
+                },
+                {
+                    "description": "User can start invasions (Goblin/Snow Legion) using items.",
+                    "value": "tshock.npc.startinvasion"
+                },
+                {
+                    "description": "User can start the dd2 event.",
+                    "value": "tshock.npc.startdd2"
+                },
+                {
+                    "description": "User can clear the list of users who have completed an angler quest that day.",
+                    "value": "tshock.npc.clearanglerquests"
+                },
+                {
+                    "description": "Meant for super admins only.",
+                    "value": "tshock.superadmin.user"
+                },
+                {
+                    "description": "Allows a user to elevate to superadmin for 10 minutes.",
+                    "value": "tshock.su"
+                }
+            ]
+        },
+        {
+            "name": "tshock.tp",
+            "children": [
+                {
+                    "description": "User can teleport *everyone* to them.",
+                    "value": "tshock.tp.allothers"
+                },
+                {
+                    "description": "User can teleport to others.",
+                    "value": "tshock.tp.self"
+                },
+                {
+                    "description": "User can teleport other people.",
+                    "value": "tshock.tp.others"
+                },
+                {
+                    "description": "User can teleport to tile positions.",
+                    "value": "tshock.tp.pos"
+                },
+                {
+                    "description": "User can get the position of players.",
+                    "value": "tshock.tp.getpos"
+                },
+                {
+                    "description": "User can teleport to an NPC.",
+                    "value": "tshock.tp.npc"
+                },
+                {
+                    "description": "Users can stop people from teleporting.",
+                    "value": "tshock.tp.block"
+                },
+                {
+                    "description": "Users can override teleport blocks.",
+                    "value": "tshock.tp.override"
+                },
+                {
+                    "description": "Users can teleport to people without showing a notice",
+                    "value": "tshock.tp.silent"
+                },
+                {
+                    "description": "User can use /home.",
+                    "value": "tshock.tp.home"
+                },
+                {
+                    "description": "User can use /spawn.",
+                    "value": "tshock.tp.spawn"
+                },
+                {
+                    "description": "User can use the Rod of Discord.",
+                    "value": "tshock.tp.rod"
+                },
+                {
+                    "description": "User can use wormhole potions.",
+                    "value": "tshock.tp.wormhole"
+                },
+                {
+                    "description": "User can use pylons to teleport",
+                    "value": "tshock.tp.pylon"
+                },
+                {
+                    "description": "User can use Teleportation Potions.",
+                    "value": "tshock.tp.tppotion"
+                },
+                {
+                    "description": "User can use the Magic Conch.",
+                    "value": "tshock.tp.magicconch"
+                },
+                {
+                    "description": "User can use the Demon Conch.",
+                    "value": "tshock.tp.demonconch"
+                }
+            ]
+        },
+        {
+            "name": "tshock.world",
+            "children": [
+                {
+                    "description": "User can use the 'worldevent' command",
+                    "value": "tshock.world.events"
+                },
+                {
+                    "description": "User can use the 'bloodmoon' subcommand of the 'worldevent' command",
+                    "value": "tshock.world.events.bloodmoon"
+                },
+                {
+                    "description": "User can use the 'fullmoon' subcommand of the 'worldevent' command",
+                    "value": "tshock.world.events.fullmoon"
+                },
+                {
+                    "description": "User can use the 'invasion' subcommand of the 'worldevent' command",
+                    "value": "tshock.world.events.invasion"
+                },
+                {
+                    "description": "User can use the 'meteor' subcommand of the 'worldevent' command",
+                    "value": "tshock.world.events.meteor"
+                },
+                {
+                    "description": "User can use the 'eclipse' subcommand of the 'worldevent' command",
+                    "value": "tshock.world.events.eclipse"
+                },
+                {
+                    "description": "User can use the 'sandstorm' subcommand of the 'worldevent' command",
+                    "value": "tshock.world.events.sandstorm"
+                },
+                {
+                    "description": "User can use the 'rain' subcommand of the 'worldevent' command",
+                    "value": "tshock.world.events.rain"
+                },
+                {
+                    "description": "User can use the 'lanternsnight' subcommand of the 'worldevent' command",
+                    "value": "tshock.world.events.lanternsnight"
+                },
+                {
+                    "description": "User can change expert state.",
+                    "value": "tshock.world.toggleexpert"
+                },
+                {
+                    "description": "Allows you to edit the spawn.",
+                    "value": "tshock.world.editspawn"
+                },
+                {
+                    "description": "Allows you to edit regions.",
+                    "value": "tshock.world.editregion"
+                },
+                {
+                    "description": "User can force a blood moon.",
+                    "value": "tshock.world.time.bloodmoon"
+                },
+                {
+                    "description": "User can set the time.",
+                    "value": "tshock.world.time.set"
+                },
+                {
+                    "description": "Player can use the Enchanted Sundial item.",
+                    "value": "tshock.world.time.usesundial"
+                },
+                {
+                    "description": "User can grow plants.",
+                    "value": "tshock.world.grow"
+                },
+                {
+                    "description": "User can grow evil biome plants.",
+                    "value": "tshock.world.growevil"
+                },
+                {
+                    "description": "User can change hardmode state.",
+                    "value": "tshock.world.hardmode"
+                },
+                {
+                    "description": "User can change the homes of NPCs.",
+                    "value": "tshock.world.movenpc"
+                },
+                {
+                    "description": "User can convert hallow into corruption and vice-versa.",
+                    "value": "tshock.world.converthardmode"
+                },
+                {
+                    "description": "User can force the server to Halloween mode.",
+                    "value": "tshock.world.sethalloween"
+                },
+                {
+                    "description": "User can force the server to Christmas mode.",
+                    "value": "tshock.world.setxmas"
+                },
+                {
+                    "description": "User can save the world.",
+                    "value": "tshock.world.save"
+                },
+                {
+                    "description": "User can settle liquids.",
+                    "value": "tshock.world.settleliquids"
+                },
+                {
+                    "description": "User can get the world info.",
+                    "value": "tshock.world.info"
+                },
+                {
+                    "description": "User can set the world spawn.",
+                    "value": "tshock.world.setspawn"
+                },
+                {
+                    "description": "User can set the dungeon's location.",
+                    "value": "tshock.world.setdungeon"
+                },
+                {
+                    "description": "User can drop a meteor.",
+                    "value": "tshock.world.time.dropmeteor"
+                },
+                {
+                    "description": "User can force an eclipse.",
+                    "value": "tshock.world.time.eclipse"
+                },
+                {
+                    "description": "User can force a full moon.",
+                    "value": "tshock.world.time.fullmoon"
+                },
+                {
+                    "description": "User can modify the world.",
+                    "value": "tshock.world.modify"
+                },
+                {
+                    "description": "User can paint tiles.",
+                    "value": "tshock.world.paint"
+                },
+                {
+                    "description": "User can turn on or off sandstorms.",
+                    "value": "tshock.world.sandstorm"
+                },
+                {
+                    "description": "User can turn on or off the rain.",
+                    "value": "tshock.world.rain"
+                },
+                {
+                    "description": "User can modify the wind.",
+                    "value": "tshock.world.wind"
+                },
+                {
+                    "description": "Player can toggle party event.",
+                    "value": "tshock.world.toggleparty"
+                }
+            ]
+        },
+        {
+            "name": "tshock.journey",
+            "children": [
+                {
+                    "description": "User can use Creative UI freeze time.",
+                    "value": "tshock.journey.time.freeze"
+                },
+                {
+                    "description": "User can use Creative UI to set world time.",
+                    "value": "tshock.journey.time.set"
+                },
+                {
+                    "description": "User can use Creative UI to set world time speed.",
+                    "value": "tshock.journey.time.setspeed"
+                },
+                {
+                    "description": "User can use Creative UI to toggle character godmode.",
+                    "value": "tshock.journey.godmode"
+                },
+                {
+                    "description": "User can use Creative UI to set world wind strength/seed.",
+                    "value": "tshock.journey.wind.strength"
+                },
+                {
+                    "description": "User can use Creative UI to stop the world wind strength from changing.",
+                    "value": "tshock.journey.wind.freeze"
+                },
+                {
+                    "description": "User can use Creative UI to set world rain strength/seed.",
+                    "value": "tshock.journey.rain.strength"
+                },
+                {
+                    "description": "User can use Creative UI to stop the world rain strength from changing.",
+                    "value": "tshock.journey.rain.freeze"
+                },
+                {
+                    "description": "User can use Creative UI to toggle increased placement range.",
+                    "value": "tshock.journey.placementrange"
+                },
+                {
+                    "description": "User can use Creative UI to set world difficulty/mode.",
+                    "value": "tshock.journey.setdifficulty"
+                },
+                {
+                    "description": "User can use Creative UI to stop the biome spread of the world.",
+                    "value": "tshock.journey.biomespreadfreeze"
+                },
+                {
+                    "description": "User can use Creative UI to set the NPC spawn rate of the world.",
+                    "value": "tshock.journey.setspawnrate"
+                },
+                {
+                    "description": "User can contribute research by sacrificing items",
+                    "value": "tshock.journey.research"
+                }
+            ]
+        },
+        {
+            "name": "Non-grouped",
+            "children": [
+                {
+                    "description": "User can clear items or projectiles.",
+                    "value": "tshock.clear"
+                },
+                {
+                    "description": "User can kill others.",
+                    "value": "tshock.kill"
+                },
+                {
+                    "description": "Player can respawn themselves.",
+                    "value": "tshock.respawn"
+                },
+                {
+                    "description": "Player can respawn others.",
+                    "value": "tshock.respawn.other"
+                },
+                {
+                    "description": "Allows you to bypass the max slots for up to 5 slots above your max.",
+                    "value": "tshock.reservedslot"
+                },
+                {
+                    "description": "User can use warps.",
+                    "value": "tshock.warp"
+                },
+                {
+                    "description": "User can slap others.",
+                    "value": "tshock.slap"
+                },
+                {
+                    "description": "User can whisper to others.",
+                    "value": "tshock.whisper"
+                },
+                {
+                    "description": "User can annoy others.",
+                    "value": "tshock.annoy"
+                },
+                {
+                    "description": "User can heal players.",
+                    "value": "tshock.heal"
+                },
+                {
+                    "description": "User can use party chat in game.",
+                    "value": "tshock.partychat"
+                },
+                {
+                    "description": "User can talk in third person.",
+                    "value": "tshock.thirdperson"
+                },
+                {
+                    "description": "User can get the server info.",
+                    "value": "tshock.info"
+                },
+                {
+                    "description": "Player recovers health as damage is taken.  Can be one shotted.",
+                    "value": "tshock.godmode"
+                },
+                {
+                    "description": "User can godmode other players.",
+                    "value": "tshock.godmode.other"
+                },
+                {
+                    "description": "Player can chat.",
+                    "value": "tshock.canchat"
+                },
+                {
+                    "description": "Player can use banned projectiles.",
+                    "value": "tshock.projectiles.usebanned"
+                },
+                {
+                    "description": "Player can place banned tiles.",
+                    "value": "tshock.tiles.usebanned"
+                },
+                {
+                    "description": "Player can check if a username is registered and see its last login time.",
+                    "value": "tshock.accountinfo.check"
+                },
+                {
+                    "description": "Player can see advanced information about any user account.",
+                    "value": "tshock.accountinfo.details"
+                },
+                {
+                    "description": "Player can resync themselves with server state.",
+                    "value": "tshock.synclocalarea"
+                },
+                {
+                    "description": "Player can send emotes.",
+                    "value": "tshock.sendemoji"
+                }
+            ]
+        }
+    ]
+}
