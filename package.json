@@ -1,0 +1,20 @@
+{
+  "name": "tshock-permissions",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "compute": "node ./src/permissions/printLog",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "vite": "^4.2.0"
+  }
+}
